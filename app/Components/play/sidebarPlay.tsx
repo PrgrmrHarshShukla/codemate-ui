@@ -32,23 +32,23 @@ export default function SidebarPlay () {
             <div className="h-[88vh] w-full flex flex-col justify-start items-center overflow-x-hidden">
                 <Link href="/" className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={homeIcon} alt="homeIcon" />
-                    <span className="text-xl font-semibold hidden md:block">Dashboard</span>
+                    <span className="text-xl hidden md:block text-[#465362]">Dashboard</span>
                 </Link>
                 <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] bg-gradient-to-r  from-white to-blue-100 h-[8vh]">
                     <Image className="text-blue-500" src={playground} alt="homeIcon" />
-                    <span className="text-xl font-semibold hidden md:block">Playground</span>
+                    <span className="text-xl hidden md:block text-[#465362]">Playground</span>
                 </div>
                 <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={assignments} alt="homeIcon" />
-                    <span className="text-xl font-semibold hidden md:block">Assignments</span>
+                    <span className="text-xl hidden md:block text-[#465362]">Assignments</span>
                 </div>
                 <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={reportIcon} alt="homeIcon" />
-                    <span className="text-xl font-semibold hidden md:block">Reports</span>
+                    <span className="text-xl hidden md:block text-[#465362]">Reports</span>
                 </div>
                 <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={user} alt="homeIcon" />
-                    <span className="text-xl font-semibold hidden md:block">Profile</span>
+                    <span className="text-xl hidden md:block text-[#465362]">Profile</span>
                 </div>
             </div>
         </div>
