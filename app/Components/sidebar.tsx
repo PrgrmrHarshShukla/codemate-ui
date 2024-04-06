@@ -17,37 +17,37 @@ export default function Sidebar () {
 
 
     return (
-        <div className="relative flex flex-col justify-start  items-center  h-screen w-[10vw] md:w-[20vw] bg-white">
+        <div className="relative flex flex-col justify-start  items-center  h-screen w-[10vw] md:w-[20vw] bg-white border-r-[1px] border-gray-400">
             <div className="border-b-2 border-gray-300 w-full flex flex-row justify-center items-center h-[12vh]">
                 <Image className={`${showSmallIcon ? "block" : "hidden"} md:hidden`} src={smallIcon} alt="smallIcon" />
                 <Image className="hidden md:block" src={largeIcon} alt="largeIcon" />
             </div>
             <div 
                 onClick={() => setShowSmallIcon(p => !p)}
-                className="absolute top-[10vh] -right-3 rounded-full bg-white"
+                className="absolute hidden md:block top-[10vh] -right-3 rounded-full bg-white"
             >
                 <Image src={expandArrow} alt="expandArrow" />
             </div>
             <div className="h-[88vh] w-full flex flex-col justify-start items-center overflow-x-hidden">
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#48AEF3]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={homeIcon} alt="homeIcon" />
-                    <span className="text-xl font-semibold">Dashboard</span>
+                    <span className="text-xl font-semibold hidden md:block">Dashboard</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#48AEF3]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={playground} alt="homeIcon" />
-                    <span className="text-xl font-semibold">Playground</span>
+                    <span className="text-xl font-semibold hidden md:block">Playground</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#48AEF3]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={assignments} alt="homeIcon" />
-                    <span className="text-xl font-semibold">Assignments</span>
+                    <span className="text-xl font-semibold hidden md:block">Assignments</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#48AEF3]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={reportIcon} alt="homeIcon" />
-                    <span className="text-xl font-semibold">Reports</span>
+                    <span className="text-xl font-semibold hidden md:block">Reports</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#48AEF3]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={user} alt="homeIcon" />
-                    <span className="text-xl font-semibold">Profile</span>
+                    <span className="text-xl font-semibold hidden md:block">Profile</span>
                 </div>
             </div>
         </div>
