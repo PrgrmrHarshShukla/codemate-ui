@@ -17,9 +17,9 @@ export default function Sidebar () {
 
 
     return (
-        <div className="relative flex flex-col justify-start  items-center  h-screen w-[10vw] md:w-[20vw] bg-white border-r-[1px] border-gray-400">
+        <div className=" flex flex-col justify-start items-center min-h-screen w-[10vw] md:w-[20vw] bg-white border-r-[1px] border-gray-400">
             <div className="border-b-2 border-gray-300 w-full flex flex-row justify-center items-center h-[12vh]">
-                <Image className={`${showSmallIcon ? "block" : "hidden"} md:hidden`} src={smallIcon} alt="smallIcon" />
+                <Image className={`block md:hidden`} src={smallIcon} alt="smallIcon" />
                 <Image className="hidden md:block" src={largeIcon} alt="largeIcon" />
             </div>
             <div 
@@ -29,7 +29,7 @@ export default function Sidebar () {
                 <Image src={expandArrow} alt="expandArrow" />
             </div>
             <div className="h-[88vh] w-full flex flex-col justify-start items-center overflow-x-hidden">
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  h-[8vh]">
                     <Image className="text-blue-500" src={homeIcon} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Dashboard</span>
                 </div>

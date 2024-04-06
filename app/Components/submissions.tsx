@@ -60,7 +60,7 @@ export default function Submissions() {
             <div className="w-full flex h-[16vh] md:flex-wrap flex-row justify-center items-center gap-1 overflow-auto">
                 {
                     data.map((item: any, index: any) => (
-                        <div key={index} className={`${item == "1" ? "bg-blue-300" : "bg-[#D9D9D9]"} w-3 h-3`}>
+                        <div key={index} className={`${item == "1" ? "bg-[#2FCACE]" : "bg-[#D9D9D9]"} w-3 h-3`}>
                             
                         </div>
                     ))

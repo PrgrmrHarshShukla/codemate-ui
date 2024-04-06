@@ -1,7 +1,7 @@
 "use client";
 
-import MainBody from "./Components/mainBody";
-import Sidebar from "./Components/sidebar";
+import MainBody from "../Components/mainBody";
+import Sidebar from "../Components/sidebar";
 
 export default function Home() {
   return (
