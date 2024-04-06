@@ -10,7 +10,7 @@ import copy from "../icons/copy-svgrepo-com 1.png";
 
 export default function Files() {
     return (
-        <div className="w-full md:w-11/12 h-[14vh] flex flex-row justify-between items-center px-8 md:px-12">
+        <div className="w-full md:w-11/12 h-[14vh] flex flex-row justify-between items-center px-8 md:px-0">
             <div className="flex flex-row justify-between items-center w-2/3 md:w-1/4 border-2 border-gray-400 rounded-[10px] p-3">
                 <div className="flex flex-row justify-center items-center gap-2">
                     <Image src={pyIcon} alt="pyIcon" />
@@ -18,7 +18,7 @@ export default function Files() {
                 </div>
                 <Image src={downIcon} alt="d" />
             </div>
-            <div className="flex flex-row w-1/3 md:w-1/6 justify-between items-center">
+            <div className="flex flex-row w-1/3 md:w-40 justify-between items-center">
                 <Image src={playIcon} alt="user" />
                 <Image src={upload} alt="user" />
                 <Image src={copy} alt="user" />
