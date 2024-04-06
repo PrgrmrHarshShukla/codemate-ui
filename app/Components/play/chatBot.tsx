@@ -45,7 +45,7 @@ export default function ChatBot() {
 
             <div className="relative w-3/4 h-[6vh] border-2 border-gray-400 z-30 rounded-full px-2 flex flex-row justify-start items-center">
                 <input value={userInput} onChange={(e: any) => setUserInput(e.target.value)} type="text" placeholder="Enter your query" className="z-30 h-[5vh] outline-none rounded-full pl-2 w-5/6" />
-                <Image onClick={handleChat} src={sendIcon} alt="s" className="z-10 absolute bottom-[11px] right-1" />
+                <Image onClick={handleChat} src={sendIcon} alt="s" className=" rounded-full z-10 absolute bottom-[11px] right-1" />
             </div>
         </div>
     )
