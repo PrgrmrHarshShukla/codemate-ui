@@ -56,7 +56,7 @@ export default function Submissions() {
     return (
         <div className="w-full flex flex-col justify-between items-start px-12 mt-4">
             <span className="text-black text-xl font-bold my-4">My Submissions</span>
-            <div className="max-w-[90vw] md:w-[70vw] flex h-auto max-h-[16vh] flex-wrap flex-row justify-center items-center gap-1 overflow-x-auto">
+            <div className="max-w-[90vw] md:w-[75vw] flex h-auto max-h-[17vh] flex-wrap flex-row justify-center items-center gap-1 overflow-x-auto">
                 {
                     data.map((item: any, index: any) => (
                         <div key={index} className={`${item == "1" ? "bg-[#2FCACE]" : "bg-[#D9D9D9]"} w-3 h-3`}>
