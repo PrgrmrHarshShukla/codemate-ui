@@ -16,10 +16,10 @@ export default function Submissions() {
         "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "", "", "", "", "", "", "", "", "", "", "", "", "", "",
-        "", "", "", "", "", "", "", "1", "", "", "", "", "", "",
-        "", "", "", "", "", "", "", "", "", "", "1", "", "", "",
-        "", "", "", "", "", "", "", "", "", "", "", "", "", "",
-        "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+        // "", "", "", "", "", "", "", "1", "", "", "", "", "", "",
+        // "", "", "", "", "", "", "", "", "", "", "1", "", "", "",
+        // "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+        // "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "", "", "", "", "", "", "", "1", "", "", "", "", "", "",
@@ -54,7 +54,7 @@ export default function Submissions() {
 
 
     return (
-        <div className="w-full flex flex-col justify-between items-start px-12 mt-8">
+        <div className="w-full flex flex-col justify-between items-start px-12 mt-4">
             <span className="text-black text-xl font-bold my-4">My Submissions</span>
             <div className="w-full flex h-auto min-h-[16vh] flex-wrap flex-row justify-center items-center gap-1 overflow-x-auto">
                 {

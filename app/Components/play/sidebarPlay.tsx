@@ -30,23 +30,23 @@ export default function SidebarPlay () {
                 <Image src={expandArrow} alt="expandArrow" />
             </div>
             <div className="h-[88vh] w-full flex flex-col justify-start items-center overflow-x-hidden">
-                <Link href="/" className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                <Link href="/" className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={homeIcon} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Dashboard</span>
                 </Link>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  h-[8vh]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] bg-gradient-to-r  from-white to-blue-100 h-[8vh]">
                     <Image className="text-blue-500" src={playground} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Playground</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={assignments} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Assignments</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={reportIcon} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Reports</span>
                 </div>
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  from-white to-blue-100  h-[8vh]">
                     <Image className="text-blue-500" src={user} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Profile</span>
                 </div>

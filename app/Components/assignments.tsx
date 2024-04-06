@@ -12,7 +12,7 @@ import circleEmpty from "./icons/Ellipse 4.png"
 
 export default function Assignments () {
     return (
-        <div className="w-full flex flex-col justify-between items-start px-12 mt-8">
+        <div className="w-full flex flex-col justify-between items-start px-12 mt-4">
             <span className="text-black text-xl font-bold my-4">Completed Assignments</span>
             <div className="w-full flex h-auto flex-col justify-center items-center gap-3">
 

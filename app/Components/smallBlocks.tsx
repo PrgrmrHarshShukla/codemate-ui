@@ -8,7 +8,7 @@ import assignments from "./icons/document-add-svgrepo-com 2.png";
 
 export default function SmallBlocks() {
     return (
-        <div className="flex flex-col gap-2 md:gap-0 md:flex-row flex-wrap justify-around items-center w-full mt-4">
+        <div className="flex flex-col gap-2 md:gap-0 md:flex-row flex-wrap justify-around items-center w-full mt-2">
 
             <div className="flex flex-row justify-between px-4 bg-[#F7F7F7] py-3 pr-8 rounded-[10px] items-center w-5/6 md:w-1/4">
                 <div className="flex flex-row justify-center items-center gap-2 w-1/2">
