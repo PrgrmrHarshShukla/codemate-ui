@@ -1,19 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import smallIcon from "./images/smallIcon.png"
-import largeIcon from "./images/largeIcon.png"
-import homeIcon from "./icons/home.svg"
-import expandArrow from "./images/expandArrow.png"
-import playground from "./icons/terminal.png"
-import assignments from "./icons/assignments.png"
-import reportIcon from "./icons/report.png"
-import user from "./icons/user.png"
+import smallIcon from "../images/smallIcon.png"
+import largeIcon from "../images/largeIcon.png"
+import homeIcon from "../icons/home.svg"
+import expandArrow from "../images/expandArrow.png"
+import playground from "../icons/terminal.png"
+import assignments from "../icons/assignments.png"
+import reportIcon from "../icons/report.png"
+import user from "../icons/user.png"
 import { useState } from "react";
 import Link from "next/link";
 
 
-export default function Sidebar () {
+export default function SidebarPlay () {
     const [showSmallIcon, setShowSmallIcon] = useState<boolean>(false)
 
 
@@ -30,14 +30,14 @@ export default function Sidebar () {
                 <Image src={expandArrow} alt="expandArrow" />
             </div>
             <div className="h-[88vh] w-full flex flex-col justify-start items-center overflow-x-hidden">
-                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  h-[8vh]">
+                <Link href="/" className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={homeIcon} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Dashboard</span>
-                </div>
-                <Link href="/playground" className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
+                </Link>
+                <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full border-r-8 border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r  h-[8vh]">
                     <Image className="text-blue-500" src={playground} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Playground</span>
-                </Link>
+                </div>
                 <div className="flex flex-row justify-start items-center gap-4 mt-8 w-full active:border-r-8 active:border-[#48AEF3] pl-[1vw] md:pl-[4vw] active:bg-gradient-to-r active:bg-[#a5cee9] h-[8vh]">
                     <Image className="text-blue-500" src={assignments} alt="homeIcon" />
                     <span className="text-xl font-semibold hidden md:block">Assignments</span>
