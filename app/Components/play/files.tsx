@@ -10,8 +10,8 @@ import copy from "../icons/copy-svgrepo-com 1.png";
 
 export default function Files() {
     return (
-        <div className="w-11/12 h-[14vh] flex flex-row justify-between items-center px-12">
-            <div className="flex flex-row justify-between items-center w-1/2 md:w-1/4 border-2 border-gray-400 rounded-[10px] p-3">
+        <div className="w-full md:w-11/12 h-[14vh] flex flex-row justify-between items-center px-8 md:px-12">
+            <div className="flex flex-row justify-between items-center w-2/3 md:w-1/4 border-2 border-gray-400 rounded-[10px] p-3">
                 <div className="flex flex-row justify-center items-center gap-2">
                     <Image src={pyIcon} alt="pyIcon" />
                     <span className=" text-xl font-bold">Python2</span>

@@ -18,7 +18,7 @@ export default function Sidebar () {
 
 
     return (
-        <div className="relative flex flex-col justify-start items-center min-h-screen w-[10vw] md:w-[20vw] bg-white border-r-[1px] border-gray-400">
+        <div className="relative flex flex-col justify-start items-center min-h-[100vh]  w-[10vw] md:w-[20vw] bg-white border-r-[1px] border-gray-400 ">
             <div className="border-b-2 border-gray-300 w-full flex flex-row justify-center items-center h-[12vh]">
                 <Image className={`block md:hidden`} src={smallIcon} alt="smallIcon" />
                 <Image className="hidden md:block" src={largeIcon} alt="largeIcon" />
