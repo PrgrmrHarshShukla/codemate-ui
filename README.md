@@ -1,3 +1,14 @@
+## Assignment Submission Preview
+![image](https://github.com/user-attachments/assets/7764e3cd-cacc-4291-ab40-359bdbe31660)
+
+![image](https://github.com/user-attachments/assets/b18365b4-cb73-44fb-8daa-b4464a98a1ae)
+
+
+
+
+
+
+##
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
